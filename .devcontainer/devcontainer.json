@@ -4,8 +4,12 @@
     "service": "workspace",
     "workspaceFolder": "/workspaces/project3",
     "remoteUser": "eecs388",
-    "extensions": [
-        "ms-azuretools.vscode-docker",
-        "ms-python.python"
-    ]
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "ms-python.python"
+            ]
+        }
+    }
 }
